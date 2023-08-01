@@ -6,6 +6,17 @@
           box-sizing: border-box;
 }
 
+.promo__button {
+  width: 277px;
+  height: 88px;
+  background: #FED84C;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 152%;
+  color: #2E363E;
+}
+
 .promo {
   height: 1295px;
   background: url(../img/bg1.png) center center/cover no-repeat;
@@ -142,17 +153,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.promo__button {
-  width: 277px;
-  height: 88px;
-  background: #FED84C;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 152%;
-  color: #2E363E;
 }
 
 .promo__txt3 {
