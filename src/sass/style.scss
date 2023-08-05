@@ -5,7 +5,14 @@
     box-sizing: border-box;
   }
 
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
   @import 'blocks/buttons';
   @import 'blocks/promo';
   @import 'blocks/catalog';
+  @import 'blocks/header';
 
