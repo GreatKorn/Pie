@@ -5,6 +5,11 @@
     box-sizing: border-box;
   }
 
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(/src/fonts/Montserrat-Regular.ttf);
+  }
+
 .container {
     width: 100%;
     max-width: 1180px;
@@ -12,7 +17,8 @@
 }
 
   @import 'blocks/buttons';
+  @import 'blocks/header';
   @import 'blocks/promo';
   @import 'blocks/catalog';
-  @import 'blocks/header';
+  
 
