@@ -181,9 +181,9 @@
   grid-gap: 100px 36px;
   gap: 100px 36px;
 }
-.catalog__card {
+/*.catalog__card {
   height: 245px;
-}
+}*/
 .catalog__card-title {
   font-size: 24px;
   line-height: 143%;
