@@ -9,9 +9,16 @@
     color: #2E363E;
     cursor: pointer;
     &_catalog {
-        width: 303px;
-        height: 54px;
+        color: #2E363E;
+        font-weight: 500;
+        line-height: 152%;
+        width: 163px;
+        height: 68px;
+        border-radius: 8px;
         font-size: 16px;
-        margin-top: 67px;
+        padding: 20px 20px 20px 20px;
+        margin-left: 44px;
+        align-items: center;
+        cursor: pointer;
     }
 }

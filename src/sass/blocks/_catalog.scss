@@ -6,13 +6,16 @@
         font-size: 48px;
         line-height: 60px;
         margin-bottom: 80px;
+        margin-left: 80px;
     }
-    &__cards {
-        height: 582px;
+    &__carts {
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 100px 36px;
+        gap: 100px 36px;
     }
     &__card {
-        width: 380px;
-        height: 582px;
+        height: 245px;
     }
     &__card-title {
         font-size: 24px;

@@ -11,7 +11,6 @@
   src: url(/src/fonts/Montserrat-Regular.ttf);
 }
 .container {
-  width: 100%;
   max-width: 1180px;
   margin: 0 auto;
 }
@@ -28,10 +27,19 @@
   cursor: pointer;
 }
 .button_catalog {
-  width: 303px;
-  height: 54px;
+  color: #2E363E;
+  font-weight: 500;
+  line-height: 152%;
+  width: 163px;
+  height: 68px;
+  border-radius: 8px;
   font-size: 16px;
-  margin-top: 67px;
+  padding: 20px 20px 20px 20px;
+  margin-left: 44px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
 }
 
 .header {
@@ -130,6 +138,7 @@
   font-size: 48px;
   line-height: 60px;
   color: #FFFFFF;
+  letter-spacing: 1px;
 }
 .promo__txt2 {
   margin-top: 24px;
@@ -160,13 +169,20 @@
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 80px;
+  margin-left: 80px;
 }
-.catalog__cards {
-  height: 582px;
+.catalog__carts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-gap: 100px 36px;
+  gap: 100px 36px;
 }
 .catalog__card {
-  width: 380px;
-  height: 582px;
+  height: 245px;
 }
 .catalog__card-title {
   font-size: 24px;
