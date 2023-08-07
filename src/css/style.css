@@ -178,8 +178,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  grid-gap: 100px 36px;
-  gap: 100px 36px;
+  margin-bottom: 320px;
 }
 /*.catalog__card {
   height: 245px;
