@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat";
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -130,7 +129,7 @@
   height: 37px;
   background: #F2F6FA;
   border-radius: 5px;
-  padding: 10px 13px;
+  padding: 9px 24px;
 }
 .promo__subheader {
   margin-top: 24px;
@@ -199,4 +198,15 @@
   margin: 0px 0px 14px 44px;
   font-size: 24px;
   line-height: 150%;
+}
+
+.content {
+  height: 1352px;
+  background: url(../img/bg3.png) center center/cover no-repeat;
+  background-color: #081130;
+}
+.content__header {
+  margin-left: 500px;
+  height: 481px;
+  width: 326px;
 }

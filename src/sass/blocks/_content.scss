@@ -1,0 +1,10 @@
+.content {
+    height: 1352px;
+    background: url(../img/bg3.png) center center/cover no-repeat;
+    background-color: #081130;
+    &__header {
+        margin-left: 500px;
+        height: 481px;
+        width: 326px;
+    }
+}
