@@ -1,10 +1,36 @@
 .content {
-    height: 1352px;
-    background: url(../img/bg3.png) center center/cover no-repeat;
     background-color: #081130;
-    &__header {
+    &__phone {
+        width: 1090px;
+        height: 1034px;
+        img {
+           
+            position: relative;
+            z-index: 1;
+        }
+    }
+    &__subheader {
+        z-index: 2;
+        position: relative;
+        bottom: 20px;
+        left: 84px;
         margin-left: 500px;
-        height: 481px;
-        width: 326px;
+        color: var(--1, #2E363E);
+        font-size: 11px;
+        line-height: 150%; /* 16.5px */
+        letter-spacing: 1.1px;
+        text-transform: uppercase;
+        text-align: center;
+        width: 226px;
+        height: 37px;
+        border-radius: 5px;
+        background: var(--11, #F2F6FA);
+        padding: 10px 0px 0px 0px;
+    }
+    &__text {
+        color: #FFFFFF;
+    }
+    &__text1 {
+        
     }
 }
