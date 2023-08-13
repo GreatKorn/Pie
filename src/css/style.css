@@ -204,36 +204,34 @@
 
 .content {
   background-color: #081130;
+  height: auto;
 }
-.content__phone {
-  width: 1090px;
-  height: 1034px;
+.content__bg3_1 img {
+  width: 100%;
 }
-.content__phone img {
-  position: relative;
-  z-index: 1;
+.content__bg3_2 img {
+  width: 100%;
+  position: absolute;
+  top: 73%;
 }
 .content__subheader {
-  z-index: 2;
-  position: relative;
-  bottom: 20px;
-  left: 84px;
-  margin-left: 500px;
-  color: var(--1, #2E363E);
-  font-size: 11px;
-  line-height: 150%; /* 16.5px */
-  letter-spacing: 1.1px;
-  text-transform: uppercase;
-  text-align: center;
-  width: 226px;
+  margin-top: 109px;
+  margin-left: 84px;
+  width: 255px;
   height: 37px;
+  font-size: 11px;
+  line-height: 16.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 9px 29px 10px 45px;
   border-radius: 5px;
-  background: var(--11, #F2F6FA);
-  padding: 10px 0px 0px 0px;
+  background-color: #F2F6FA;
+  color: #2E363E;
 }
-.content__text {
-  color: #FFFFFF;
+.content__txt1 {
+  color: #F2F6FA;
 }
-.content__text1 {
-  color: #FFFFFF;
+
+body > section.content > div {
+  position: relative;
 }
