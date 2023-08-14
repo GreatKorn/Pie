@@ -24,8 +24,30 @@
         color: #2E363E;
     }
     &__txt1 {
+        width: 481px;
+        height: 180px;
         color: #F2F6FA;
+        margin-top: 24px;
+        margin-left: 84px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: -1px;
     }
+    &__txt2 {
+        width: 481px;
+        height: 61px;
+        color: #F2F6FA;
+        margin-top: 24px;
+        margin-left: 84px;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+
+    }
+    
 }
 
 body > section.content > div {

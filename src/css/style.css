@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url(/src/fonts/Montserrat-Regular.ttf);
+  src: url(/fonts/Montserrat-Regular.ttf);
 }
 .container {
   position: relative;
@@ -41,6 +41,12 @@
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+}
+.button_content {
+  margin-top: 40px;
+  margin-left: 84px;
+  width: 320px;
+  height: 88px;
 }
 
 .header {
@@ -229,9 +235,36 @@
   color: #2E363E;
 }
 .content__txt1 {
+  width: 481px;
+  height: 180px;
   color: #F2F6FA;
+  margin-top: 24px;
+  margin-left: 84px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+.content__txt2 {
+  width: 481px;
+  height: 61px;
+  color: #F2F6FA;
+  margin-top: 24px;
+  margin-left: 84px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.200000003px;
+  text-align: left;
 }
 
 body > section.content > div {
   position: relative;
+}
+
+.woman {
+  height: auto;
+}
+.woman__subheader {
+  color: green;
 }

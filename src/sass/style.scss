@@ -6,7 +6,7 @@
 
   @font-face {
     font-family: 'Montserrat';
-    src: url(/src/fonts/Montserrat-Regular.ttf);
+    src: url(/fonts/Montserrat-Regular.ttf);
   }
 
 .container {
@@ -21,4 +21,5 @@
   @import 'blocks/promo';
   @import 'blocks/catalog';
   @import 'blocks/content';
+  @import 'blocks/woman';
 
