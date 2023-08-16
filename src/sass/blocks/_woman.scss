@@ -1,6 +1,69 @@
 .woman {
     height: auto;
     &__subheader {
-        color: green;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        width: 191px;
+        height: 37px;
+        padding: 10px 18px 10px 40px;
+        border-radius: 5px;
+        background-color: #F2F6FA;
+    }
+    &__txt1 {
+        margin-top: 24px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: -1px;
+        color: #2E363E;
+
+    }
+    ul li {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        list-style-type: none;
+        
+    }
+    ul li:before {
+        color: #5D6AFB;
+        content: "•";
+        padding-right: 12px;
+    }
+    &__name {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: -0.30000001192092896px;
+        color: #FFFFFF;
+        background-color: #2E363E;
+        width: 239px;
+        height: 60px;
+        padding: 15px 0px 15px 30px;
+        border-radius: 5px;
+        transform: skew(-23deg);
+        margin-top: -480px;
+    }
+    &__name > div {
+        transform: skew(23deg);
+    }
+    &__post {
+        color: #2E363E;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 1px;
+        width: 170px;
+        height: 52px;
+        padding: 14px 20px 15px 30px;
+        background-color: #F2F6FA;
+        border-radius: 5px;
+        transform: skew(-14deg);
+    }
+    &__post > div {
+        transform: skew(14deg);
     }
 }
