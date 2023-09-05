@@ -1,15 +1,15 @@
 .woman {
-    height: auto;
+    height: 830px;
     &__subheader {
         font-size: 11px;
-        font-weight: 400;
         line-height: 17px;
         letter-spacing: 0.1em;
         width: 191px;
         height: 37px;
-        padding: 10px 18px 10px 40px;
+        padding: 10px 18px 10px 29px;
         border-radius: 5px;
         background-color: #F2F6FA;
+        text-transform: uppercase;
     }
     &__txt1 {
         margin-top: 24px;
