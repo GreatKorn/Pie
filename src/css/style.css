@@ -340,13 +340,9 @@ body > section.content > div {
 
 .feedback {
   background-color: #081130;
-  height: 850px;
-  /*     &__slicker div {
-          color: #ffffff;
-
-          } */
+  height: 1105px;
 }
-.feedback__bg3_1 img {
+.feedback__bg4_1 img {
   width: 100%;
 }
 .feedback h2 {
@@ -403,4 +399,40 @@ body > section.content > div {
 .feedback__city {
   margin-top: 6px;
   margin-left: 180px;
+}
+
+.gallery {
+  height: 1545px;
+}
+.gallery h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.gallery h3 {
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.gallery__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.gallery__img img {
+  width: 50%;
+  margin-top: 9px;
+  margin-left: 9px;
+}
+.gallery__bg5_1 img {
+  width: 100%;
+  background-color: #081130;
+}
+
+.footer {
+  /* height: 1000px; */
 }

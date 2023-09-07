@@ -1,0 +1,29 @@
+.gallery {
+    height: 1545px;
+    h2 {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    &__img {
+        display: flex;
+        img {
+            width: 50%;
+            margin-top: 9px;
+            margin-left: 9px;
+        }
+    }
+    &__bg5_1 img {
+        width: 100%;
+        background-color: #081130;
+    }
+}
