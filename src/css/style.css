@@ -52,6 +52,12 @@
 .button_woman {
   margin-top: 50px;
 }
+.button_footer {
+  width: 380px;
+  height: 86px;
+  padding: 29px 41px 29px 41px;
+  border-radius: 8px;
+}
 
 .header {
   padding-top: 40px;
@@ -434,5 +440,41 @@ body > section.content > div {
 }
 
 .footer {
-  /* height: 1000px; */
+  height: 912px;
+  background-color: #081130;
+}
+.footer__form {
+  margin-top: 260px;
+  width: 1180px;
+  height: 394px;
+  padding: 70px 99px 70px 99px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+.footer h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2E363E;
+}
+.footer h3 {
+  margin-top: 12px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.200000003px;
+  text-align: center;
+  color: #2E363E;
+}
+.footer__feed-form {
+  margin-top: 36px;
+  margin-left: 160px;
+}
+.footer__feed-form input {
+  width: 380px;
+  height: 85px;
+  padding: 30px 190px 29px 26px;
+  border-radius: 8px;
 }

@@ -1,3 +1,39 @@
 .footer {
-    /* height: 1000px; */
+    height: 912px;
+    background-color: #081130;
+    &__form {
+        margin-top: 260px;
+        width: 1180px;
+        height: 394px;
+        padding: 70px 99px 70px 99px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+    h2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #2E363E;
+    }
+    h3 {
+        margin-top: 12px;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: center;
+        color: #2E363E;
+    }
+    &__feed-form {
+        margin-top: 36px;
+        margin-left: 160px;
+    }
+    &__feed-form input {
+        width: 380px;
+        height: 85px;
+        padding: 30px 190px 29px 26px;
+        border-radius: 8px;
+    }
 }
