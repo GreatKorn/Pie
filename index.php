@@ -1,59 +1,6 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/src/css/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="/src/css/slick-theme.css"/>
-    <link rel="stylesheet" href="./src/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <title>Pie</title>
-</head>
-<body>
-
-    <section class="promo">
-        <div class="container">
-            <header class="header">
-                <div class="header__logo">
-                    Сладкий сундук
-                </div>
-                <div class="header__item">
-                    <div class="header__adres">
-                        г. Санкт Петербург, <br> ул. Куйбышева 31
-                        <img src="./src/icons/FacebookPlaces.png" alt="metka">
-                    </div>
-                    
-                </div>
-                <div class="header__contacts">
-                    <img src="/src/icons/tel.png" alt="tel">
-                    <div class="header__phone">
-                        8 (812) 844-95-49
-                    </div>
-                    <div class="header__day">
-                        Ежедневно с 9:00 до 20:00
-                    </div>
-                </div>
-            </header>
-
-            <div class="promo__header">
-                <div class="promo__txt">
-                    вкуснейшие
-                </div>
-                <div class="promo__subheader">
-                    Пирожные и капкейки от 150 ₽/шт. с доставкой по Санкт Петербургу
-                </div>
-                <div class="promo__txt2">
-                    Приготовим за 3 часа в день заказа. <br>
-                    Доставка на авто в холодильнике.
-                </div>
-                <div class="promo__block">
-                    <button class="button">Перейте в каталог</button>
-                    <div class="promo__txt3">9 различных видов <br> на выбор</div>
-                </div>
-            </div>
-        </div>
-    </section>
+<?php
+require_once 'temp_php/header.php';
+?>
 
     <section class="catalog">
         <div class="container">
@@ -307,24 +254,6 @@
         </div>
     </section>
 
-    <section class="footer">
-      <div class="container">
-        <div class="footer__form">
-          <h2>Чтобы сделать заказ, укажите ваш телефон</h2>
-          <h3>Чтобы сделать заказ, укажите ваш телефон</h3>
-          <form class="footer__feed-form" action="#">
-            <input name="phone" required placeholder="Ваш телефон" type="number">
-            <button class="button button_footer">Сделать заказ</button>
-          </form>
-            
-          </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/src/js/slick.min.js"></script>
-    <script src="src/js/slider.js"></script>
-</body>
-</html>
+<?php
+require_once 'temp_php/footer.php';
+?>

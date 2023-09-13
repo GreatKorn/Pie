@@ -439,11 +439,12 @@ body > section.content > div {
   background-color: #081130;
 }
 
-.footer {
-  height: 912px;
+footer {
+  height: 512px;
   background-color: #081130;
 }
-.footer__form {
+footer .form {
+  margin: 0 auto;
   margin-top: 260px;
   width: 1180px;
   height: 394px;
@@ -451,7 +452,7 @@ body > section.content > div {
   border-radius: 8px;
   background-color: #FFFFFF;
 }
-.footer h2 {
+footer h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
@@ -459,7 +460,7 @@ body > section.content > div {
   text-align: center;
   color: #2E363E;
 }
-.footer h3 {
+footer h3 {
   margin-top: 12px;
   font-size: 21px;
   font-weight: 400;
@@ -468,11 +469,11 @@ body > section.content > div {
   text-align: center;
   color: #2E363E;
 }
-.footer__feed-form {
+footer .feed-form {
   margin-top: 36px;
   margin-left: 160px;
 }
-.footer__feed-form input {
+footer .feed-form input {
   width: 380px;
   height: 85px;
   padding: 30px 190px 29px 26px;

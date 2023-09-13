@@ -1,7 +1,8 @@
-.footer {
-    height: 912px;
+footer {
+    height: 512px;
     background-color: #081130;
-    &__form {
+    .form {
+        margin: 0 auto;
         margin-top: 260px;
         width: 1180px;
         height: 394px;
@@ -26,11 +27,11 @@
         text-align: center;
         color: #2E363E;
     }
-    &__feed-form {
+    .feed-form {
         margin-top: 36px;
         margin-left: 160px;
     }
-    &__feed-form input {
+    .feed-form input {
         width: 380px;
         height: 85px;
         padding: 30px 190px 29px 26px;
