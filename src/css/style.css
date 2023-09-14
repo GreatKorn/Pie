@@ -223,10 +223,10 @@
   height: auto;
 }
 .content__bg3_1 img {
-  width: 100%;
+  width: 1903px;
 }
 .content__bg3_2 img {
-  width: 100%;
+  width: 1903px;
   position: absolute;
   top: 73%;
 }
@@ -428,9 +428,10 @@ body > section.content > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
 }
 .gallery__img img {
-  width: 50%;
+  width: 32%;
   margin-top: 9px;
   margin-left: 9px;
 }
@@ -444,8 +445,7 @@ footer {
   background-color: #081130;
 }
 footer .form {
-  margin: 0 auto;
-  margin-top: 260px;
+  margin: 217px auto;
   width: 1180px;
   height: 394px;
   padding: 70px 99px 70px 99px;
@@ -478,4 +478,12 @@ footer .feed-form input {
   height: 85px;
   padding: 30px 190px 29px 26px;
   border-radius: 8px;
+}
+
+body > section.feedback > div.feedback__bg4_2 > img {
+  width: 100%;
+}
+
+body > section.content > div {
+  width: 100% !important;
 }
