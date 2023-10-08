@@ -2,6 +2,7 @@
 require_once 'temp_php/header.php';
 ?>
 
+
     <section class="catalog">
         <div class="container">
             <div class="catalog__header">

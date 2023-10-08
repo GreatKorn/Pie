@@ -15,6 +15,9 @@
   margin: 0 auto;
 }
 
+body > form > input{
+  font-size: 25px;
+}
 
   @import 'blocks/buttons';
   @import 'blocks/header';
@@ -25,3 +28,5 @@
   @import 'blocks/feedback';
   @import 'blocks/gallery';
   @import 'blocks/footer';
+
+
